@@ -5,18 +5,43 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>UpConstruction Bootstrap Template - Projects</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description"
+    content="Selamat datang di Toko Bangunan Berkualitas - Solusi Lengkap untuk Proyek Bangunan Anda. Kami menyediakan berbagai material bangunan, peralatan, dan layanan berkualitas tinggi dengan harga kompetitif. Temukan produk terbaik untuk proyek Anda di sini.">
+  <meta name="keywords"
+    content="toko bangunan, material bangunan, peralatan bangunan, bahan bangunan, proyek bangunan, konstruksi, harga kompetitif">
+  <meta name="author" content="PD Mekar Wangi">
+  <meta name="robots" content="index, follow">
+  <meta name="image" content="URL-Gambar-Logo-Anda.jpg">
+  <meta name="canonical" content="URL-Halaman-Utama-Anda">
+
+  <!-- Tag Open Graph untuk Social Media -->
+  <meta property="og:title" content="Toko Bangunan Berkualitas">
+  <meta property="og:description"
+    content="Selamat datang di Toko Bangunan Berkualitas - Solusi Lengkap untuk Proyek Bangunan Anda.">
+  <meta property="og:image" content="URL-Gambar-Logo-Anda.jpg">
+  <meta property="og:url" content="URL-Halaman-Utama-Anda">
+  <meta property="og:type" content="website">
+
+  <!-- Tag Twitter Card untuk Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Toko Bangunan Berkualitas">
+  <meta name="twitter:description"
+    content="Selamat datang di Toko Bangunan Berkualitas - Solusi Lengkap untuk Proyek Bangunan Anda.">
+  <meta name="twitter:image" content="URL-Gambar-Logo-Anda.jpg">
+
+  <!-- Judul Halaman -->
+  <title>PD Mekar Wangi - Toko Bangunan Berkualitas, Solusi Lengkap untuk Proyek Bangunan Anda</title>
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/mekar-wangi/logo.png" rel="icon">
+  <link href="assets/img/mekar-wangi/logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,6 +54,42 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+  <style>
+    * {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .floating {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 60px;
+      right: 10px;
+      background-color: #198754;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+
+    .floating:hover {
+      color: #198754;
+      background-color: white;
+      box-shadow: #9ba6af;
+    }
+
+    .float-button {
+      margin-top: 16px;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: UpConstruction
   * Updated: Aug 30 2023 with Bootstrap v5.3.1
@@ -39,6 +100,13 @@
 </head>
 
 <body>
+
+  <!-- ======================================== FLOATING WA ======================================== -->
+  <a href="https://api.whatsapp.com/send?phone=6285720094479&text=Hello, Apakah Bahan Bangunan untuk hari ini tersedia?%21%20."
+    class="floating" target="_blank">
+    <i class="fa fa-whatsapp float-button"></i>
+  </a>
+  <!-- ======================================== END FLOATING WA ======================================== -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
@@ -58,25 +126,6 @@
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html" class="active">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -102,163 +151,782 @@
     <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
 
-        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
+        <div class="section-header">
+          <h2>Our Products</h2>
+          <p>Kami berkomitmen untuk menyediakan produk-produk berkualitas tinggi yang akan membantu memastikan
+            keberhasilan setiap proyek konstruksi Anda. Dari material dasar hingga peralatan yang diperlukan, kami siap
+            menyediakan solusi yang tepat untuk memenuhi kebutuhan bangunan Anda.
+
+          </p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+          data-portfolio-sort="original-order">
 
           <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-remodeling">Remodeling</li>
+            <li data-filter=".filter-remodeling">Genteng</li>
             <li data-filter=".filter-construction">Construction</li>
-            <li data-filter=".filter-repairs">Repairs</li>
-            <li data-filter=".filter-design">Design</li>
+            <li data-filter=".filter-repairs">Roster</li>
+            <li data-filter=".filter-design">Mix & Match</li>
           </ul><!-- End Projects Filters -->
 
           <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/mekar-wangi/faradj/genteng_jatiwangi_murando_glazur_transparan_brown_muda_tua.jpeg"
+                  class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Remodeling 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Genteng Jatiwangi Murando Glazur Transparan</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_jatiwangi_murando_glazur_transparan_brown_muda_tua.jpeg"
+                    title="Genteng Jatiwangi Murando Glazur Transparan" data-gallery="portfolio-gallery-remodeling"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Construction 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Projects Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Repairs 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Projects Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Design 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Projects Item -->
-
+            </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/mekar-wangi/faradj/genteng_jatiwangi_murando_glazur_transparan_brown_natural.jpeg"
+                  class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Remodeling 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Genteng Jatiwangi Murando Glazur Transparan Natural</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_jatiwangi_murando_glazur_transparan_brown_natural.jpeg"
+                    title="Genteng Jatiwangi Murando Glazur Transparan Natural"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Construction 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Projects Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Repairs 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Projects Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Design 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Projects Item -->
-
+            </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/mekar-wangi/faradj/genteng_jatiwangi_murando_glazur_transparan_brown_tua.jpeg"
+                  class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Remodeling 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Genteng Jatiwangi Murando Glazur Transparan Tua</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_jatiwangi_murando_glazur_transparan_brown_tua.jpeg"
+                    title="Genteng Jatiwangi Murando Glazur Transparan Tua" data-gallery="portfolio-gallery-remodeling"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_jatiwangi_primadona.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Jatiwangi Primadona</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_jatiwangi_primadona.jpeg"
+                    title="Genteng Jatiwangi Primadona" data-gallery="portfolio-gallery-remodeling"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_jatiwangi_primadona_2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Jatiwangi Primadona</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_jatiwangi_primadona_2.jpeg"
+                    title="Genteng Jatiwangi Primadona" data-gallery="portfolio-gallery-remodeling"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kaca_jatiwangi.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kaca Jatiwangi</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kaca_jatiwangi.jpeg" title="Genteng Kaca Jatiwangi"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kanimuri_full_flat.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kanimuri Full Flat</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kanimuri_full_flat.jpeg"
+                    title="Genteng Kanimuri Full Flat" data-gallery="portfolio-gallery-remodeling"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kanimuri_milenio.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kanimuri Milenio</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kanimuri_milenio.jpeg" title="Genteng Kanimuri Milenio"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kanimuri_milenio_2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kanimuri Milenio</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kanimuri_milenio_2.jpeg"
+                    title="Genteng Kanimuri Milenio" data-gallery="portfolio-gallery-remodeling"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kia_coffee_latte.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kia Coffe Latte</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kia_coffee_latte.jpeg" title="Genteng Kia Coffe Latte"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kia_maroon.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kia Maroon</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kia_maroon.jpeg" title="Genteng Kia Maroon"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_kia_natural.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Kia Natural</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kia_natural.jpeg" title="Genteng Kia Natural"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_m_class_natural.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng M Class Natural</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_m_class_natural.jpeg" title="Genteng M Class Natural"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/genteng_monier.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Genteng Monier</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_monier.jpeg" title="Genteng Monier"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <!-- video -->
+                <video width="320" height="240" controls>
+                  <source src="assets/img/mekar-wangi/faradj/genteng_kia_koko_brown.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="portfolio-info">
+                  <h4>Genteng Kia Koko Brown</h4>
+                  <p></p>
+                  <a href="assets/img/mekar-wangi/faradj/genteng_kia_koko_brown.mp4" title="Genteng Kia Koko Brown"
+                    data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Projects Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_bata_merah_inden_perumahan.jpeg"
+                  class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Construction 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Pemasangan Bata Merah</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_bata_merah_inden_perumahan.jpeg"
+                    title="Pemasangan Bata Merah" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_grace_block_perumahan.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Grace Block</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_grace_block_perumahan.jpeg"
+                    title="Pemasangan Grace Block" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_grace_block_perumahan_2.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Grace Block</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_grace_block_perumahan_2.jpeg"
+                    title="Pemasangan Grace Block" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Kolam Renang</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang.jpeg"
+                    title="Pemasangan Paving Block Kolam Renang" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_2.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Kolam Renang</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_2.jpeg"
+                    title="Pemasangan Paving Block Kolam Renang" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_3.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Kolam Renang</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_3.jpeg"
+                    title="Pemasangan Paving Block Kolam Renang" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_4.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Kolam Renang</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_4.jpeg"
+                    title="Pemasangan Paving Block Kolam Renang" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_5.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Kolam Renang</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_block_kolam_renang_5.jpeg"
+                    title="Pemasangan Paving Block Kolam Renang" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Cafe</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe.jpeg"
+                    title="Pemasangan Paving Block Cafe" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_2.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Cafe</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_2.jpeg"
+                    title="Pemasangan Paving Block Cafe" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_3.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Cafe</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_3.jpeg"
+                    title="Pemasangan Paving Block Cafe" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_4.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Cafe</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_4.jpeg"
+                    title="Pemasangan Paving Block Cafe" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_5.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Block Cafe</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_cafe_5.jpeg"
+                    title="Pemasangan Paving Block Cafe" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_2.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_2.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_3.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_3.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_4.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_4.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_5.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_5.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_6.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_6.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_7.jpeg"
+                  class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Paving Perumahan</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_paving_blovk_perumahan_7.jpeg"
+                    title="Pemasangan Paving Perumahan" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/project_pemasangan_roster_rm_haji_empud.jpeg" class="img-fluid"
+                  alt="">
+                <div class="portfolio-info">
+                  <h4>Pemasangan Roster Haji Empud</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/project_pemasangan_roster_rm_haji_empud.jpeg"
+                    title="Pemasangan Roster Haji Empud" data-gallery="portfolio-gallery-construction"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Projects Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Repairs 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_2.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_3.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_4.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_5.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_5.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_6.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_6.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_7.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_7.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_8.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_8.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_9.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_9.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/roster_mekar_wangi_10.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roster Mekar Wangi</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/roster_mekar_wangi_10.jpeg" title="Roster Mekar Wangi"
+                    data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Projects Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/mekar-wangi/faradj/variasi_nok.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Design 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Variasi Nok</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/variasi_nok.jpeg" title="Varia Nok"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/variasi_nok_2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Variasi Nok</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/variasi_nok_2.jpeg" title="Varia Nok"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/wallpaper1.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>wallpaper</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/wallpaper1.jpeg" title="Varia Nok"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/wallpaper2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>wallpaper</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/wallpaper2.jpeg" title="Varia Nok"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/wallpaper3.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>wallpaper</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/wallpaper3.jpeg" title="Varia Nok"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/mekar-wangi/faradj/wallpaper4.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>wallpaper</h4>
+                  <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                  <a href="assets/img/mekar-wangi/faradj/wallpaper4.jpeg" title="Varia Nok"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Projects Item -->
 
-          </div><!-- End Projects Container -->
+          </div>
+          <!-- End Projects Container -->
 
         </div>
 
@@ -276,11 +944,11 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>UpConstruction</h3>
+              <h3>PD Mekar Wangi</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
+                Jalan Raya Sukabumi KM7, Kampung Samoja No.48, RT./RW/RW.01/10, Ciwalen, Kec. Warungkondang, Kabupaten
+                Cianjur, Jawa Barat 43261 <br>
+                <strong>Phone:</strong>+62 857-2009-4479<br>
                 <strong>Email:</strong> info@example.com<br>
               </p>
               <div class="social-links d-flex mt-3">
@@ -292,7 +960,7 @@
             </div>
           </div><!-- End footer info column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><a href="#">Home</a></li>
@@ -301,9 +969,10 @@
               <li><a href="#">Terms of service</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div> -->
+          <!-- End footer links column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="#">Web Design</a></li>
@@ -312,9 +981,10 @@
               <li><a href="#">Marketing</a></li>
               <li><a href="#">Graphic Design</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div> -->
+          <!-- End footer links column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Hic solutasetp</h4>
             <ul>
               <li><a href="#">Molestiae accusamus iure</a></li>
@@ -323,9 +993,10 @@
               <li><a href="#">Dilecta</a></li>
               <li><a href="#">Sit quas consectetur</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div> -->
+          <!-- End footer links column-->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Nobis illum</h4>
             <ul>
               <li><a href="#">Ipsam</a></li>
@@ -334,7 +1005,8 @@
               <li><a href="#">Trodelas</a></li>
               <li><a href="#">Flexo</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div> -->
+          <!-- End footer links column-->
 
         </div>
       </div>
@@ -358,7 +1030,8 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 

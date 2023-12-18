@@ -32,15 +32,16 @@
   <!-- Judul Halaman -->
   <title>PD Mekar Wangi - Toko Bangunan Berkualitas, Solusi Lengkap untuk Proyek Bangunan Anda</title>
 
-
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/mekar-wangi/logo.png" rel="icon">
+  <link href="assets/img/mekar-wangi/logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -53,6 +54,11 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
   <!-- =======================================================
   * Template Name: UpConstruction
   * Updated: Aug 30 2023 with Bootstrap v5.3.1
@@ -60,9 +66,50 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+    * {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .floating {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 60px;
+      right: 10px;
+      background-color: #198754;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+
+    .floating:hover {
+      color: #198754;
+      background-color: white;
+      box-shadow: #9ba6af;
+    }
+
+    .float-button {
+      margin-top: 16px;
+    }
+  </style>
+
 </head>
 
 <body>
+
+  
+
+  <!-- ======================================== FLOATING WA ======================================== -->
+  <a href="https://api.whatsapp.com/send?phone=6285720094479&text=Hello, Apakah Bahan Bangunan untuk hari ini tersedia?%21%20."
+    class="floating" target="_blank">
+    <i class="fa fa-whatsapp float-button"></i>
+  </a>
+  <!-- ======================================== END FLOATING WA ======================================== -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
@@ -82,25 +129,6 @@
           <li><a href="about.html" class="active">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -110,7 +138,8 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/mekar-wangi/genteng_5.jpg');">
+    <div class="breadcrumbs d-flex align-items-center"
+      style="background-image: url('assets/img/mekar-wangi/genteng_5.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
         <h2>About</h2>
@@ -131,11 +160,13 @@
           <div class="col-lg-7 about-img" style="background-image: url(assets/img/about.jpg);"></div>
 
           <div class="col-lg-7">
-            <h2>PD. Mekar Wangi</h2>
+            <h2>PD Mekar Wangi</h2>
             <div class="our-story">
               <h4>Est 1988</h4>
               <h3>Kami adalah...</h3>
-              <p>Tempat terbaik untuk memenuhi semua kebutuhan konstruksi, renovasi, dan perbaikan rumah Anda. Kami adalah destinasi utama bagi para profesional dan penghobi bangunan yang mencari produk berkualitas tinggi, layanan ahli, dan pengalaman berbelanja yang nyaman.</p>
+              <p>Tempat terbaik untuk memenuhi semua kebutuhan konstruksi, renovasi, dan perbaikan rumah Anda. Kami
+                adalah destinasi utama bagi para profesional dan penghobi bangunan yang mencari produk berkualitas
+                tinggi, layanan ahli, dan pengalaman berbelanja yang nyaman.</p>
               <!-- <ul>
                 <li><i class="bi bi-check-circle"></i> <span>Stok Luas dan Variatif: Kami stok lengkap berbagai bahan bangunan, alat, dan perlengkapan rumah tangga. Dari bahan bangunan seperti kayu, batu bata, semen hingga cat, peralatan tukang, dan aksesori dekoratif, kami memiliki semuanya.</span></li>
                 <li><i class="bi bi-check-circle"></i> <span>Kualitas Terbaik: Kami hanya menyediakan produk-produk dari merek terkemuka yang terkenal akan kualitasnya. Kami percaya bahwa bahan yang baik adalah fondasi untuk konstruksi yang kokoh dan proyek yang tahan lama.</span></li>
@@ -144,11 +175,14 @@
                 <li><i class="bi bi-check-circle"></i> <span></span>Belanja Nyaman: Toko kami dirancang untuk memberikan pengalaman berbelanja yang nyaman. Dengan parkir yang luas, ruang pameran yang teratur, dan kemudahan aksesibilitas, Anda akan menemukan berbelanja di Toko Bangunan Modern sangat menyenangkan.</li>
                 <li><i class="bi bi-check-circle"></i> <span>Pengiriman Cepat: Kami menyediakan layanan pengiriman yang cepat dan andal. Produk-produk Anda akan sampai tepat waktu untuk memulai proyek Anda tanpa hambatan.</span></li>
               </ul> -->
-              <p>Apakah Anda seorang kontraktor profesional, tukang kayu, atau hanya sedang merencanakan perbaikan rumah kecil, Toko Bangunan Modern adalah mitra terpercaya Anda dalam menghasilkan proyek berkualitas tinggi. Kunjungi toko kami hari ini dan temukan semua yang Anda butuhkan untuk membangun atau memperbaiki rumah Anda dengan gaya modern dan keandalan.</p>
+              <p>Apakah Anda seorang kontraktor profesional, tukang kayu, atau hanya sedang merencanakan perbaikan rumah
+                kecil, Toko Bangunan Modern adalah mitra terpercaya Anda dalam menghasilkan proyek berkualitas tinggi.
+                Kunjungi toko kami hari ini dan temukan semua yang Anda butuhkan untuk membangun atau memperbaiki rumah
+                Anda dengan gaya modern dan keandalan.</p>
 
               <div class="watch-video d-flex align-items-center position-relative">
                 <i class="bi bi-play-circle"></i>
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
+                <a href="#" class="glightbox stretched-link">Watch Video</a>
               </div>
             </div>
           </div>
@@ -169,7 +203,8 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                  class="purecounter"></span>
                 <p>Happy Clients</p>
               </div>
             </div>
@@ -179,7 +214,8 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                  class="purecounter"></span>
                 <p>Projects</p>
               </div>
             </div>
@@ -189,7 +225,8 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-headset color-green flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                  class="purecounter"></span>
                 <p>Hours Of Support</p>
               </div>
             </div>
@@ -199,7 +236,8 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-people color-pink flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                  class="purecounter"></span>
                 <p>Hard Workers</p>
               </div>
             </div>
@@ -215,8 +253,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row justify-content-around gy-4">
-          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/mekar-wangi/genteng_2.jpg);" data-aos="zoom-in"
-            data-aos-delay="100"></div>
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/mekar-wangi/genteng_2.jpg);"
+            data-aos="zoom-in" data-aos-delay="100"></div>
 
           <div class="col-lg-5 d-flex flex-column justify-content-center">
             <h3>Toko Genteng & Paving Block Mekar Wangi</h3>
@@ -228,10 +266,11 @@
               <i class="bi bi-easel flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">
-                  Pesan Antar
-                </a></h4>
+                    Pesan Antar
+                  </a></h4>
                 <p>
-                  Belanja tanpa meninggalkan rumah! Kami kirim pesanan langsung ke pintu Anda. Hemat waktu dengan berbelanja online bersama kami.
+                  Belanja tanpa meninggalkan rumah! Kami kirim pesanan langsung ke pintu Anda. Hemat waktu dengan
+                  berbelanja online bersama kami.
                 </p>
               </div>
             </div><!-- End Icon Box -->
@@ -240,10 +279,11 @@
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">
-                  Ambil di Toko
-                </a></h4>
+                    Ambil di Toko
+                  </a></h4>
                 <p>
-                  Pesan online, ambil di toko. Dapatkan produk Anda dengan cepat tanpa biaya pengiriman. Itu simpel dan praktis!
+                  Pesan online, ambil di toko. Dapatkan produk Anda dengan cepat tanpa biaya pengiriman. Itu simpel dan
+                  praktis!
                 </p>
               </div>
             </div><!-- End Icon Box -->
@@ -252,10 +292,11 @@
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">
-                  Belanja di Toko
-                </a></h4>
+                    Belanja di Toko
+                  </a></h4>
                 <p>
-                  Kunjungi toko fisik kami untuk pengalaman berbelanja yang menarik. Temukan produk berkualitas tinggi dan konsultasi dengan staf berpengetahuan kami.
+                  Kunjungi toko fisik kami untuk pengalaman berbelanja yang menarik. Temukan produk berkualitas tinggi
+                  dan konsultasi dengan staf berpengetahuan kami.
                 </p>
               </div>
             </div><!-- End Icon Box -->
@@ -264,10 +305,11 @@
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">
-                  Pengiriman di Hari yang Sama
-                </a></h4>
+                    Pengiriman di Hari yang Sama
+                  </a></h4>
                 <p>
-                  Pesanan Anda tiba pada hari yang sama ketika Anda memesan. Kami memberikan pengiriman super cepat untuk kepuasan Anda.
+                  Pesanan Anda tiba pada hari yang sama ketika Anda memesan. Kami memberikan pengiriman super cepat
+                  untuk kepuasan Anda.
                 </p>
               </div>
             </div><!-- End Icon Box -->
@@ -281,15 +323,15 @@
             <a href="https://api.whatsapp.com/send?phone=6285720094479&text=Hello, Apakah Bahan Bangunan untuk hari ini tersedia?%21%20."
               class="btn btn-success btn-lg" target="_blank"><i class="fab fa-whatsapp"></i> Pesan Sekarang</a>
 
-              <!-- make button maps -->
-              <a href="https://goo.gl/maps/q8qg1ZSfKJ8iQNFR7" class="btn btn-danger btn-lg" target="_blank"><i
+            <!-- make button maps -->
+            <a href="https://goo.gl/maps/q8qg1ZSfKJ8iQNFR7" class="btn btn-danger btn-lg" target="_blank"><i
                 class="fas fa-map-marker-alt"></i> Kunjungi Toko</a>
-                <!-- make button call -->
-                <a href="tel:+6285720094479" class="btn btn-primary btn-lg" target="_blank"><i
-                  class="fas fa-phone"></i> Hubungi Kami</a>
+            <!-- make button call -->
+            <a href="tel:+6285720094479" class="btn btn-primary btn-lg" target="_blank"><i class="fas fa-phone"></i>
+              Hubungi Kami</a>
           </div>
 
-      </div>
+        </div>
     </section>
     <!-- End Alt Services Section -->
 
@@ -300,14 +342,16 @@
         <div class="row justify-content-around gy-4">
           <div class="col-lg-5 d-flex flex-column justify-content-center">
             <h3>PD Mekar Wangi Cianjur</h3>
-            <p>Jalan Raya Sukabumi KM7, Kampung Samoja No.48, RT./RW/RW.01/10, Ciwalen, Kec. Warungkondang, Kabupaten Cianjur, Jawa Barat 43261</p>
+            <p>Jalan Raya Sukabumi KM7, Kampung Samoja No.48, RT./RW/RW.01/10, Ciwalen, Kec. Warungkondang, Kabupaten
+              Cianjur, Jawa Barat 43261</p>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
               <i class="bi bi-easel flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Pengiriman Cepat dan Amanah</a></h4>
                 <p>
-                  Kami berkomitmen untuk memberikan pengiriman yang cepat dan amanah kepada pelanggan kami. Keamanan dan kecepatan adalah prioritas kami.
+                  Kami berkomitmen untuk memberikan pengiriman yang cepat dan amanah kepada pelanggan kami. Keamanan dan
+                  kecepatan adalah prioritas kami.
                 </p>
               </div>
             </div><!-- End Icon Box -->
@@ -316,7 +360,8 @@
               <i class="bi bi-patch-check flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Kualitas Barang yang Puas</a></h4>
-                <p>Kami sangat senang Anda puas dengan kualitas barang yang kami tawarkan. Kualitas adalah salah satu fokus utama kami, dan kepuasan pelanggan adalah hadiah terbesar bagi kami.</p>
+                <p>Kami sangat senang Anda puas dengan kualitas barang yang kami tawarkan. Kualitas adalah salah satu
+                  fokus utama kami, dan kepuasan pelanggan adalah hadiah terbesar bagi kami.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -324,7 +369,8 @@
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Toko Lengkap</a></h4>
-                <p>Kami memiliki stok yang lengkap untuk genteng, paving blok, dan roaster. Ini memudahkan pelanggan kami untuk menemukan semua yang mereka butuhkan di satu tempat.</p>
+                <p>Kami memiliki stok yang lengkap untuk genteng, paving blok, dan roaster. Ini memudahkan pelanggan
+                  kami untuk menemukan semua yang mereka butuhkan di satu tempat.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -332,12 +378,14 @@
               <i class="bi bi-brightness-high flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Harga Terjangkau</a></h4>
-                <p>Kami berusaha untuk menawarkan harga yang sangat terjangkau kepada pelanggan kami. Kami percaya bahwa solusi konstruksi berkualitas tinggi tidak harus mahal.</p>
+                <p>Kami berusaha untuk menawarkan harga yang sangat terjangkau kepada pelanggan kami. Kami percaya bahwa
+                  solusi konstruksi berkualitas tinggi tidak harus mahal.</p>
               </div>
             </div><!-- End Icon Box -->
           </div>
 
-          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/mekar-wangi/cianjur.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/mekar-wangi/cianjur.jpg);"
+            data-aos="zoom-in" data-aos-delay="100"></div>
         </div>
 
         <!-- Make Button Whatsapp -->
@@ -346,134 +394,16 @@
             <a href="https://api.whatsapp.com/send?phone=6285720094479&text=Hello, Apakah Bahan Bangunan untuk hari ini tersedia?%21%20."
               class="btn btn-success btn-lg" target="_blank"><i class="fab fa-whatsapp"></i> Pesan Sekarang</a>
 
-              <!-- make button maps -->
-              <a href="https://goo.gl/maps/q8qg1ZSfKJ8iQNFR7" class="btn btn-danger btn-lg" target="_blank"><i
+            <!-- make button maps -->
+            <a href="https://goo.gl/maps/q8qg1ZSfKJ8iQNFR7" class="btn btn-danger btn-lg" target="_blank"><i
                 class="fas fa-map-marker-alt"></i> Kunjungi Toko</a>
-                <!-- make button call -->
-                <a href="tel:+6285720094479" class="btn btn-primary btn-lg" target="_blank"><i
-                  class="fas fa-phone"></i> Hubungi Kami</a>
+            <!-- make button call -->
+            <a href="tel:+6285720094479" class="btn btn-primary btn-lg" target="_blank"><i class="fas fa-phone"></i>
+              Hubungi Kami</a>
           </div>
 
-      </div>
+        </div>
     </section><!-- End Alt Services Section 2 -->
-
-    <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Our Team</h2>
-          <p>Kami adalah tim yang solid. Bersatu dalam keragaman, kami menciptakan keberhasilan. Kolaborasi kami menghasilkan solusi kreatif dan prestasi gemilang. Kami siap menghadapi proyek apa pun untuk mewujudkan tujuan. Temui kami dan bersama kita sukseskan impian Anda.</p>
-        </div>
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Sarah Jhonson</h4>
-              <span>Product Manager</span>
-              <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-            <div class="member-img">
-              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Brian Doe</h4>
-              <span>Marketing</span>
-              <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-            <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="member-info text-center">
-              <h4>Josepha Palas</h4>
-              <span>Operation</span>
-              <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-    </section><!-- End Our Team Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -481,7 +411,8 @@
 
         <div class="section-header">
           <h2>Testimonials</h2>
-          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia
+            reprehenderit sunt deleniti</p>
         </div>
 
         <div class="slides-2 swiper">
@@ -490,15 +421,16 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <img src="https://ui-avatars.com/api/?name=Athun+Gajahdeva" class="testimonial-img" alt="">
+                  <h3>Athun Gajahdeva</h3>
+                  <h4>Consumen</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    Pelayanan memuaskan ramah kwalitas yg di jual nya bagus ga mengecewakan
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -508,15 +440,16 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
+                  <img src="https://ui-avatars.com/api/?name=Vicky+Andreansyah" class="testimonial-img" alt="">
+                  <h3>Vicky Andreansyah</h3>
                   <h4>Designer</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    Stok barang yg tidak diragukan dan kualitas yang bagus. . 👍 …
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -526,15 +459,17 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <img src="https://ui-avatars.com/api/?name=Firdaus+salim" class="testimonial-img" alt="">
+                  <h3>Firdaus salim brik bajri Bajri</h3>
+                  <h4>Consumen</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    Berbagai macam genteng berkualitas tinggi dan harga murah serta ramah bisa melihat langsung genteng
+                    roster ke toko. Pokok nya terthebest se sukabumi, juga ada cabang di cianjur.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -544,15 +479,16 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <img src="https://ui-avatars.com/api/?name=Haji+Lutfi" class="testimonial-img" alt="">
+                  <h3>Haji Lutfi</h3>
+                  <h4>Consumen</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    barang sangat bagus dan baik sekali penjual ramah rekomemdasi sekali genteng bagus
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -562,15 +498,16 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <img src="https://ui-avatars.com/api/?name=Karamah+Salim" class="testimonial-img" alt="">
+                  <h3>Karamah Salim</h3>
+                  <h4>Consumen & Local Guide</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    Mantap ini toko yang paling komplit ga rugi klo di sini insyaallah berkah dan mantap
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -583,6 +520,7 @@
 
       </div>
     </section><!-- End Testimonials Section -->
+
 
   </main><!-- End #main -->
 
@@ -597,7 +535,8 @@
             <div class="footer-info">
               <h3>PD Mekar Wangi</h3>
               <p>
-                Jalan Raya Sukabumi KM7, Kampung Samoja No.48, RT./RW/RW.01/10, Ciwalen, Kec. Warungkondang, Kabupaten Cianjur, Jawa Barat 43261 <br>
+                Jalan Raya Sukabumi KM7, Kampung Samoja No.48, RT./RW/RW.01/10, Ciwalen, Kec. Warungkondang, Kabupaten
+                Cianjur, Jawa Barat 43261 <br>
                 <strong>Phone:</strong>+62 857-2009-4479<br>
                 <strong>Email:</strong> info@example.com<br>
               </p>
@@ -680,7 +619,8 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
